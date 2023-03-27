@@ -12,7 +12,7 @@
         </config>
         <config key="reference">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="FAF"/>
+            <entry key="columnName" type="xstring" value="Weight"/>
         </config>
         <config key="predicted_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -20,7 +20,7 @@
         </config>
         <config key="predicted">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="Prediction (FAF)"/>
+            <entry key="columnName" type="xstring" value="Prediction (Weight)"/>
         </config>
         <config key="override default output name_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -31,7 +31,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="output column" type="xstring" value="Prediction (FAF)"/>
+        <entry key="output column" type="xstring" value="Prediction (Weight)"/>
         <config key="name prefix for flowvars_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -50,10 +50,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Can't calculate Mean Absolute Percentage error: target value is 0! 5"/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.mine.scorer.numeric2.NumericScorer2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Numeric Scorer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -79,6 +75,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0d2b8457-d431-4cc9-a464-a28b83f47932"/>
+        <entry key="file_store_id" type="xstring" value="f70528fc-8c10-4d47-b048-eb4a3601517a"/>
     </config>
 </config>

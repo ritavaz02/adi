@@ -3,7 +3,7 @@
     <entry key="spec_name" type="xstring" value="Scores"/>
     <entry key="number_columns" type="xint" value="1"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="Prediction (FAF)"/>
+        <entry key="column_name" type="xstring" value="Prediction (Weight)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -14,13 +14,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="-0.029221578162861375"/>
+                    <entry key="DoubleCell" type="xdouble" value="-0.2995136152472439"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.8388058683025281"/>
+                    <entry key="DoubleCell" type="xdouble" value="32.52732017279981"/>
                 </config>
             </config>
         </config>

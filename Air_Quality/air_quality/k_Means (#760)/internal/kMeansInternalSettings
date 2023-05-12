@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="14"/>
+    <entry key="ignoredColumns" type="xint" value="2"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="1667"/>
+        <entry key="1" type="xint" value="7314"/>
+        <entry key="2" type="xint" value="375"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="12"/>
+        <entry key="0" type="xdouble" value="0.7650808821286597"/>
+        <entry key="1" type="xdouble" value="0.3032826313416427"/>
+        <entry key="2" type="xdouble" value="0.15232613854587587"/>
+        <entry key="3" type="xdouble" value="0.2911989966834601"/>
+        <entry key="4" type="xdouble" value="0.9881713569269898"/>
+        <entry key="5" type="xdouble" value="0.23060165603473984"/>
+        <entry key="6" type="xdouble" value="0.9858371520962083"/>
+        <entry key="7" type="xdouble" value="0.42372244975465345"/>
+        <entry key="8" type="xdouble" value="0.3244311172517884"/>
+        <entry key="9" type="xdouble" value="0.4616908876289267"/>
+        <entry key="10" type="xdouble" value="0.5353948078308867"/>
+        <entry key="11" type="xdouble" value="0.47342491624824073"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="12"/>
+        <entry key="0" type="xdouble" value="0.22263200826832952"/>
+        <entry key="1" type="xdouble" value="0.32940003741509183"/>
+        <entry key="2" type="xdouble" value="0.15732965812098088"/>
+        <entry key="3" type="xdouble" value="0.30595715301464343"/>
+        <entry key="4" type="xdouble" value="0.15653825340111585"/>
+        <entry key="5" type="xdouble" value="0.21476887721898666"/>
+        <entry key="6" type="xdouble" value="0.3225252535058811"/>
+        <entry key="7" type="xdouble" value="0.4026267501175443"/>
+        <entry key="8" type="xdouble" value="0.3532212837239883"/>
+        <entry key="9" type="xdouble" value="0.42851652891347186"/>
+        <entry key="10" type="xdouble" value="0.49618634375703974"/>
+        <entry key="11" type="xdouble" value="0.39628881387671844"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="12"/>
+        <entry key="0" type="xdouble" value="0.3042259887005653"/>
+        <entry key="1" type="xdouble" value="0.9964393395549175"/>
+        <entry key="2" type="xdouble" value="0.9932494758909852"/>
+        <entry key="3" type="xdouble" value="0.9957094483888584"/>
+        <entry key="4" type="xdouble" value="0.3368449559918756"/>
+        <entry key="5" type="xdouble" value="0.9762089510094593"/>
+        <entry key="6" type="xdouble" value="0.46633530571992116"/>
+        <entry key="7" type="xdouble" value="0.9981606714628297"/>
+        <entry key="8" type="xdouble" value="0.9959640891977991"/>
+        <entry key="9" type="xdouble" value="0.988673835125448"/>
+        <entry key="10" type="xdouble" value="0.991953039832285"/>
+        <entry key="11" type="xdouble" value="0.9936409454462525"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="14"/>
+        <entry key="0" type="xstring" value="CO(GT)"/>
+        <entry key="1" type="xstring" value="PT08.S1(CO)"/>
+        <entry key="2" type="xstring" value="C6H6(GT)"/>
+        <entry key="3" type="xstring" value="PT08.S2(NMHC)"/>
+        <entry key="4" type="xstring" value="NOx(GT)"/>
+        <entry key="5" type="xstring" value="PT08.S3(NOx)"/>
+        <entry key="6" type="xstring" value="NO2(GT)"/>
+        <entry key="7" type="xstring" value="PT08.S4(NO2)"/>
+        <entry key="8" type="xstring" value="PT08.S5(O3)"/>
+        <entry key="9" type="xstring" value="T"/>
+        <entry key="10" type="xstring" value="RH"/>
+        <entry key="11" type="xstring" value="AH"/>
+        <entry key="12" type="xstring" isnull="true" value=""/>
+        <entry key="13" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
